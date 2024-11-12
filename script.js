@@ -32,7 +32,7 @@ async function processarMensagemUsuario(mensagem) {
 
   const chatLog = document.getElementById("chat-log");
 
-  const req = await fetch("https://web-ua6pajxuovdk.up-de-fra1-k8s-1.apps.run-on-seenode.com/iA_redacao", {
+  const req = await fetch("https://web-ua6pajxuovdk.up-de-fra1-k8s-1.apps.run-on-seenode.com/ia", {
     method: 'POST',
     body: JSON.stringify({ redacao: mensagem }),
     headers: { "content-type": "application/json" },
